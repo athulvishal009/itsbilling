@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITS Add Item</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Item</h1>
+        <form id="addItemForm">
+            <div class="form-group">
+                <label for="item_name">Item Name</label>
+                <input type="text" id="item_name" required>
+            </div>
+            <div class="form-group">
+                <label for="purchase_rate">Purchase Rate</label>
+                <input type="number" id="purchase_rate" required>
+            </div>
+            <div class="form-group">
+                <label for="sales_rate">Sales Rate</label>
+                <input type="number" id="sales_rate" required>
+            </div>
+            <div class="form-group">
+                <label for="mrp">MRP</label>
+                <input type="number" id="mrp" required>
+            </div>
+            <div class="form-group">
+                <label for="gst">GST (%)</label>
+                <input type="number" id="gst" required>
+            </div>
+            <button type="submit">Add Item</button>
+        </form>
+        <a href="dashboard.html">Go to Dashboard</a>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

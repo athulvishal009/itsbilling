@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITS Order Taking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ITS Order Taking</h1>
+        <form id="orderForm">
+            <div class="form-group">
+                <label for="item_name">Item Name</label>
+                <input type="text" id="item_name" required>
+            </div>
+            <div class="form-group">
+                <label for="item_quantity">Quantity</label>
+                <input type="number" id="item_quantity" required>
+            </div>
+            <div class="form-group">
+                <label for="customer_name">Customer Name</label>
+                <input type="text" id="customer_name" required>
+            </div>
+            <button type="submit">Submit Order</button>
+        </form>
+        <div id="orderSummary" class="hidden">
+            <h2>Order Summary</h2>
+            <p id="summaryText"></p>
+        </div>
+        <a href="inventory.html">Go to Inventory Management</a>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
